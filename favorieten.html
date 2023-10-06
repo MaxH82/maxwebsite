@@ -6,18 +6,74 @@
   <link rel="stylesheet" href="style.css" />
   <title>Muziek</title>
   <style>
+    li{
+      font-family: Arial, Helvetica, sans-serif;
+    }
     h1 {
       color: black;
+      font-family: Arial, Helvetica, sans-serif;
     }
     h2 {
       color: black;
+      font-family: Arial, Helvetica, sans-serif;
     }
     p {
-      color: black
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
     }
     body{
       
     }
+    h1, h2, h3 {
+      color: rgb(0, 0, 0);
+}
+
+.smalltext {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Opmaak voor sub pagina's */
+
+/* Navigatiebalk voor alle pagina's */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(30 215 96);
+}
+
+nav li a.active {
+    background-color: rgb(30 215 96);
+}
+
+    
   </style>
   <meta charset="UTF-8" />
 </head>
@@ -25,19 +81,19 @@
     <div class="page">
   
       <header>
-        <h1>Muziek genres</h1>
+        <h1>Mijn favorieten</h1>
       </header>
   
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="genres.html">Genres</a></li>
+          <li><a href="genres.html">Genres</a></li>
           <li><a href="geschiedenis.html">Geschiedenis</a></li>
-          <li><a href="favorieten.html">Favorieteb</a></li>
+          <li><a class="active" href="favorieten.html">Favorieten</a></li>
         </ul>
       </nav>
   
-      <h2>Verschillende muziek genres</h2>
+      <h2>Mijn favorieten artiesten en genres</h2>
       <br>
       <main>
         
