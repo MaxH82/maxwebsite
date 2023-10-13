@@ -4,7 +4,7 @@
    zodat je de afmeting goed kunt zien, 
    letop 1: dit kan de layout soms kan wijzigen 
    letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {border: 1px dotted black;}   */
+  /* {border: 1px dotted black;}   
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -62,7 +62,7 @@ img {
 
 .item-plaatje {
   float:left;
-  width:250px;
+  width: 230px;px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
