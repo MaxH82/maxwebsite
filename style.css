@@ -62,8 +62,23 @@ img {
 
 .item-plaatje {
   float:left;
-  width: 230px;px;
+  width: 230px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+.item-plaatje2 {
+  float:right;
+  padding-left:15px;
+}
+.item-plaatje3{
+  float:right;
+  width:300px;
+  height:200px;
+  padding-left: 15px;
+}
+.item-plaatje4{
+  float:left;
+  padding-right: 30px;
+  width: 275px;
 }
 .item-tekst {
   float:right;
