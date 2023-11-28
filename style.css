@@ -81,6 +81,16 @@ img {
   padding-right: 30px;
   width: 275px;
 }
+.item-plaatje5{
+width:188px;
+}
+.item-plaatje6{
+width:480px;
+}
+
+.item-plaatje6{
+
+}
 .item-tekst {
   float:right;
   width: 450px;
@@ -147,3 +157,6 @@ table{
 th, td{
   border:1px solid black;
 } 
+#spotify{
+  color:rgb(30 215 96);
+}
