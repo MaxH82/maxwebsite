@@ -50,6 +50,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -90,9 +91,9 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: rgb(0, 0, 0);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -116,6 +117,7 @@ nav ul {
     padding: 0;
     background-color: #000000;
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li {
@@ -137,3 +139,11 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(30 215 96);
 }
+table{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px black;
+}
+th, td{
+  border:1px solid black;
+} 
